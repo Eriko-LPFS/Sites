@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Resenha: O Ultimato Bourne </title>
+    <style>
+		header {
+			margin: 0;
+			padding: 0;
+			text-align:center;
+		}
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			background-color: black;
+			color: white;
+		}
+		.synopsis, .reviews, .write-review {
+			border: 1px solid #ddd;
+			padding: 1rem;
+			margin: 1rem;
+		}
+		/* styles.css */
+		.submit-button {
+			background-color: #0074D9;
+			color: #fff;
+			border: none;
+			padding: 0.5rem 1rem;
+			cursor: pointer;
+			transition: background-color 0.3s;
+		}
+
+		.submit-button:hover {
+			background-color: #0056b3;
+		}
+
+		.submit-button:active {
+			background-color: #003366;
+		}
+		#user-review {
+			background-color: black; 
+			color: white;
+			border: 1px solid #ddd;
+			padding: 0.5rem;
+		}
+		footer {
+			text-align:center;
+			color: white;
+		}
+	</style>
+</head>
+<body>
+    <header>
+        <img width = "100%" src = "pictures/Banner B2.jpeg">
+    </header>
+
+    <main>
+        <section class="synopsis">
+            <h2>Sinopse</h2>
+            <p> 
+				"O Ultimato Bourne" é um thriller que fecha a trilogia original Bourne que começou em 2002 com o filme "A Identidade Bourne".
+			</p>
+        </section>
+		
+        <section class="write-review">
+            <h2>Escreva Sua Própria Resenha</h2>
+            <form id="review-form">
+				<br/>
+				<label for="user-review">Sua Resenha:</label>
+				<br/>
+				<textarea id="user-review" name="user-review" rows="4" required></textarea>
+				<br/>
+				<button type="submit" class ="submit-button">Enviar Resenha</button>
+			</form>
+        </section>
+		
+		<section class="reviews">
+            <h2>Resenhas dos Espectadores</h2>
+            <!-- Aqui você pode exibir as resenhas dos usuários -->
+        </section>
+    </main>
+
+    <footer>
+        <p> © 2024 Resenhas do Mal </p>
+    </footer>
+</body>
+</html>

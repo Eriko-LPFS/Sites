@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site de Resenhas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: black;
+            color: red;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        .review {
+            border: 1px solid #ddd;
+            padding: 1rem;
+            margin: 1rem;
+			display: flex;
+        }
+		.review img {
+            margin-right: 1rem; 
+			transition: opacity 0.3s;
+        }
+        .review img:hover {
+            opacity: 0.7;
+        }
+        .review img:active {
+            opacity: 0.5; 
+        }
+		footer {
+			text-align:center;
+		}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Resenhas do Mal</h1>
+    </header>
+
+    <main>
+        <section class="review">
+			<a href = "B0.html" > <img width = "120" height = "150" src = "pictures/Bourne Identity.jpg"> </a>
+			<div>
+				<h2> Resenha do filme "A identidade Bourne" </h2>
+                <p> Ação e suspense com Matt Damon. </p>
+			</div>
+        </section>
+		
+		<section class="review">
+			<a href = "B1.html" > <img width = "120" height = "150" src = "pictures/Bourne Supremacy.jpg"> </a>
+			<div>
+				<h2> Resenha do filme "A supremacia Bourne" </h2>
+                <p> Ação e suspense com Matt Damon. </p>
+			</div>
+        </section>
+		
+		<section class="review">
+			<a href = "B2.html" > <img width = "120" height = "150" src = "pictures/Bourne Ultimatum.jpg"> </a>
+			<div>
+				<h2> Resenha do filme "O ultimato Bourne" </h2>
+                <p> Ação e suspense com Matt Damon. </p>
+			</div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p> © 2024 Resenhas do Mal </p>
+    </footer>
+
+    <script>
+        // Comportamento JavaScript aqui
+        document.addEventListener('DOMContentLoaded', function () {
+            // Lógica do seu site aqui
+        });
+    </script>
+</body>
+</html>
